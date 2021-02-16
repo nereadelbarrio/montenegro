@@ -792,6 +792,27 @@ a:hover, a:active, a:focus {
     font-weight: 600;
 }
 
+/*TITULO 7*/
+.bck-title7 {
+    font-size: 1.8rem;
+    color: #F68B1F;
+    font-weight: 600;
+}
+
+/*TITULO 8*/
+.bck-title8 {
+    font-size: 1.8rem;
+    color: #20B14A;
+    font-weight: 600;
+}
+
+/*TITULO 9*/
+.bck-title9 {
+    font-size: 1.8rem;
+    color: #27A6DF;
+    font-weight: 600;
+}
+
 
 /* Listas */
 
