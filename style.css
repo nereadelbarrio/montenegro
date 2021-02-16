@@ -704,7 +704,7 @@ a:hover, a:active, a:focus {
 	content: "";
     position: absolute;
     width: 100%;
-    height: 98%;
+    height: 100%;
     background-color: #8CC63F;
     right: -10px;
     bottom: 0px;
@@ -741,7 +741,7 @@ a:hover, a:active, a:focus {
 	content: "";
     position: absolute;
     width: 100%;
-    height: 98%;
+    height: 100%;
     background-color: #F36F6C;
     right: -10px;
     bottom: 0px;
@@ -759,13 +759,42 @@ a:hover, a:active, a:focus {
     border-top-left-radius: 5px;
 }
 
+
 /*TITULO 3*/
 
 .bck-title3 {
-	font-size: 3.5rem;
-	font-family: 'Conv_Chaloops-Medium';
+	font-size: 2.5rem;
+    color: #F68B1F;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
+/*TITULO 4*/
+
+.bck-title4 {
+	font-size: 2.5rem;
+    color: #FEB811;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*TITULO 5*/
+
+.bck-titl5 {
+	font-size: 2.5rem;
+    color: #8CC63F;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*TITULO 6*/
+
+.bck-titl6 {
+	font-size: 2.5rem;
+    color: #73489C;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 
 /* Listas */
