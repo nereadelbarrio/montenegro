@@ -764,8 +764,7 @@ a:hover, a:active, a:focus {
 
 .bck-title3 {
 	font-size: 2.5rem;
-    color: #F68B1F;
-    text-transform: uppercase;
+    color: #ec7e16;
     font-weight: 600;
 }
 
@@ -773,26 +772,23 @@ a:hover, a:active, a:focus {
 
 .bck-title4 {
 	font-size: 2.5rem;
-    color: #FEB811;
-    text-transform: uppercase;
+    color: #f6aa0d;
     font-weight: 600;
 }
 
 /*TITULO 5*/
 
-.bck-titl5 {
+.bck-title5 {
 	font-size: 2.5rem;
-    color: #8CC63F;
-    text-transform: uppercase;
+    color: #7ab732;
     font-weight: 600;
 }
 
 /*TITULO 6*/
 
-.bck-titl6 {
+.bck-title6 {
 	font-size: 2.5rem;
-    color: #73489C;
-    text-transform: uppercase;
+    color: #6e3c87;
     font-weight: 600;
 }
 
