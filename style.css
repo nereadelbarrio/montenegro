@@ -804,7 +804,56 @@ a:hover, a:active, a:focus {
     border-top-left-radius: 5px;
 }
 
+/*TITULO 13*/
+.bck-title13 {
+	background-color: #1F8BCC;
+    width: -webkit-fit-content;
+    width: -moz-f1-content;
+    width: fit-content;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    position: relative;
+}
 
+.bck-title13:after {
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1F8BCC;
+    right: -10px;
+    bottom: 0px;
+    -moz-transform: skewX(22deg);
+    -webkit-transform: skewX(22deg);
+    -o-transform: skewX(22deg);
+    transform: skewX(-30deg);
+    transform: );
+    z-index: -5;
+    -moz-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.bck-title13:before{
+    background: url(images/icono_ponteaprueba.PNG);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 32px 33px 0 24px;
+    position: relative;
+    left: -68px;
+    z-index: 100;
+    top: 35px;
+    width: 10px;
+    margin-top: -6px;
+}
 /* Listas */
 
 .texto_curso ul li,
@@ -1605,57 +1654,6 @@ background: #EE1C25;
 }
 
 /* Caja 7 */
-.bck-box.bck-box7 > .bck-content{
-	background-color: #AC9B70;
-    color: #fff;
-    padding: 15px;
-    border-radius: 0 0 3px 3px;
-}
-
-.bck-box.bck-box7 {
-    border: 0;
-}
-
-.bck-box.bck-box7 > .bck-title {
-    background: #F68B1F;
-    color: #fff;
-    font-weight: 600;
-    display: inline-block;
-    -moz-border-radius: 5px 5px 0 0;
-    -webkit-border-radius: 5px 5px 0 0;
-    border-radius: 5px 5px 0 0;
-    padding: 5px 10px 0 15px;
-    position: relative;
-    z-index: 2;
-    font-family: 'Conv_BommerSlab-Bold';
-    border-bottom: 2px solid #fff;
-    width: 90%
-}
-
-.bck-box.bck-box7 > .bck-title:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 102%;
-    background: #F68B1F;
-    top: 0px;
-    left: 54px;
-    z-index: -1;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    -moz-transform: skewX(20deg);
-    -webkit-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg);
-}
-
-.bck-box.bck-box7 > .bck-title p{
-	margin-bottom: 5px;
-}
-
-.bck-box.bck-box7 > .bck-bck-content p{
-	margin-bottom: 5px;
-}
 
 /*Caja 8*/
 .bck-box.bck-box8 > .bck-content{
