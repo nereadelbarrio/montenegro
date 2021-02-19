@@ -1306,6 +1306,7 @@ a:hover, a:active, a:focus {
     z-index: 2;
     font-family: 'Conv_BommerSlab-Bold';
     border-bottom: 2px solid #fff;
+    width: 90%
 }
 
 .bck-box.bck-box1 > .bck-title:after {
@@ -1313,9 +1314,9 @@ a:hover, a:active, a:focus {
     position: absolute;
     width: 100%;
     height: 102%;
-    background: red;
+    background: #0081c3;
     top: 0px;
-    left: 13px;
+    left: 54px;
     z-index: -1;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
