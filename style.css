@@ -1195,7 +1195,7 @@ background: url(images/icono_portafolio.PNG);
 
 .content .bck-ol9 li:before,
 .cke_contents .bck-ol9 li:before {
-	content: counter(bck-li-counter) ".";
+	content: counter(bck-li-counter, upper-roman)".";
     color: rgb(238,23,70);
     position: absolute;
     margin-left: -23px;
