@@ -2476,79 +2476,31 @@ body.content_type_clase_montenegro #actividad .content .fillblanks-draggable
 
  
 
-/*--------------CONTENIDO EXTRA---------------------*/
+/*--------------UNITTAG---------------------*/
+/*--------------unittag_montenegro_trimestre1---------------------*/
 
-#list-units .unittag_montenegro_contenidoextra {
-    border: 3px solid #ffd000;
-    background: #f0cc17 !important;
+#list-units .unittag_montenegro_trimestre1 {
+    border: none;
+    background: #75AF31 !important;
 }
 
-#list-units .unittag_montenegro_contenidoextra a .title {
-    color: #145C27 !important;
+/*--------------unittag_montenegro_trimestre2---------------------*/
+
+#list-units .unittag_montenegro_trimestre2 {
+    border: none;
+    background: #F7941D !important;
 }
 
-/*--------------------LIBRO 1-------------------------*/
-/*---------------SB--------------*/
 
-#list-units .unittag_montenegro_sb {
-   background: #009f74 !important;
+/*--------------unittag_montenegro_trimestre3---------------------*/
+
+#list-units .unittag_montenegro_trimestre3 {
+    border: none;
+    background: #1F8BCC !important;
 }
 
-#list-units .unittag_montenegro_sb a .title {
-    color: #fff !important;
-}
 
-/*-------------WB----------------*/
-#list-units .unittag_montenegro_wb {
-    background: #fff !important;
-    border: 2.5px dotted #00AC81;
-}
 
-#list-units .unittag_montenegro_wb a .title {
-    color: #00AC81 !important;
-}
-
-/*--------------------LIBRO 2-------------------------*/
-/*---------------SB--------------*/
-
-#list-units .unittag_montenegro_sb_nivel2 {
-   background: #C4145F !important;
-}
-
-#list-units .unittag_montenegro_sb_nivel2 a .title {
-    color: #fff !important;
-}
-
-/*-------------WB----------------*/
-#list-units .unittag_montenegro_wb_nivel2 {
-    background: #fff !important;
-    border: 2.5px dotted #C4145F;
-}
-
-#list-units .unittag_montenegro_wb_nivel2 a .title {
-    color: #C4145F !important;
-}
-
-/*--------------------LIBRO 3-------------------------*/
-/*---------------SB--------------*/
-
-#list-units .unittag_montenegro_sb_nivel3 {
-   background: #0097A3 !important;
-}
-
-#list-units .unittag_montenegro_sb_nivel3 a .title {
-    color: #fff !important;
-}
-
-/*-------------WB----------------*/
-#list-units .unittag_montenegro_wb_nivel3 {
-    background: #fff !important;
-    border: 2.5px dotted #0097a3;
-}
-
-#list-units .unittag_montenegro_wb_nivel3 a .title {
-    color: #0097a3 !important;
-}
 
 /***************************COURSETAG MONTENEGRO*******************************/
 /***************************coursetag_montenegro_matematicas*******************************/
