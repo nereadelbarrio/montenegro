@@ -88,10 +88,9 @@ Padre Poptropica*/
 
 
 /* General */
-
 /*fuente general*/
 body{
-     font-family: 'Conv_AlrightSans-Regular';
+	font-family: 'Conv_AlrightSans-Regular';
 }
 
 /*Botonera*/
@@ -168,7 +167,6 @@ body{
 		font-size: 1.6rem;
 		font: 400 15px 'Source Sans Pro',sans-serif;
 		font-family: 'Conv_AlrightSans-Regular';
-		color: #3B6CAA;
 	}
 
 	body.content_type_clase_montenegro #actividad .content img {
@@ -219,31 +217,6 @@ body{
     	font-size: 2.5rem;
 	}
 
-	.content_type_clase_montenegro #actividad .content .seccion_rosa .header .title h3 {
-		position: relative;
-	    display: block;
-	    width: fit-content;
-	    margin: 0;
-	    padding: 10px 20px 10px 0px;
-	    color: #E72186;
-	    font-size: 3.5rem;
-	    font-weight: bold;
-	    text-align: left;
-	}
-
-	.content_type_clase_montenegro #actividad .content .seccion_verde .header .title h3 {
-		position: relative;
-	    display: block;
-	    width: fit-content;
-	    margin: 0;
-	    padding: 10px 20px 10px 0px;
-	    color: #A4C840;
-	    font-size: 3.5rem;
-	    font-weight: bold;
-	    text-align: left;
-	}
-
-
 	.content_type_clase_montenegro #actividad .content .header .title h3 span {
 		float: left;
 		font-size: 1.8rem;
@@ -260,9 +233,6 @@ body{
 	.texto_curso p:last-of-type {
 		margin-bottom: 15px;
 	}
-
-
-
 
 	.content_type_clase_montenegro .slide_main {
 		padding: 0 97px;
@@ -385,9 +355,9 @@ body{
 
 /* Navbar */
 	.navbar-bottom {
-		background: #00A074 !important;
-    	padding-left: 100px;
-    	padding-right: 100px;
+	background: #414141 !important;
+    padding-left: 100px;
+    padding-right: 100px;
 	}
 
 
@@ -395,26 +365,25 @@ body{
 		display: none;
 	}
 
-	.slider-indicators .active,
-	.edit .slider-indicators .active,
-	.slider-indicators li:hover,
-	.edit .slider-indicators .concat.active,
-	.slider-indicators .active {
-	    background-color: #bae2e6;
-	    color: #333;
-	}
-
-	.edit .slider-indicators .concat.active:before {
- 		background-color: #8b9c23;
-	}
+	.slider-indicators {
+    position: static;
+    z-index: 15;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    width: auto;
+}
 
 	#bottom-navigator li:hover {
 		  background: #ffcf01;
     	  color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #ffcf01;
+		background: #cd292b;
    		color: transparent;
+   		width: 13px;
+   		height: 13px;
 	}
 
 	#top-navigator {
@@ -483,12 +452,7 @@ body{
 	}
 
 	.logo-publisher {
-		float: left;
-		display: block;
-		width: 90px;
-		height: 40px;
-		margin: 5px 0;
-		background: url(./images/logo.png) center center / auto 100% no-repeat
+		display: none;
 	}
 
 	.slider-navigator {
