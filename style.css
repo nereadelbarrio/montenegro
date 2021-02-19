@@ -569,6 +569,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
     background: #ffffff !important;
     border: none;
+
+    box-shadow: 7px 6px 9px -2px #d3d3d3;
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
@@ -2590,12 +2592,17 @@ body.content_type_clase_montenegro #actividad .content .fillblanks-draggable
 /***************************COURSETAG MONTENEGRO*******************************/
 /***************************coursetag_montenegro_matematicas*******************************/
 .coursetag_montenegro_matematicas #indice .units ul li {
-	background: #0081C4;
+	background: #009fda;
 }
 
 body:not(.isTablet).coursetag_montenegro_matematicas #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet).coursetag_montenegro_matematicas #indice .units ul li.active:not(.disabled) a .title {
-    color: #0081c4 !important;
+    color: #009fda !important;
+}
+
+.coursetag_montenegro_matematicas .btn-primary.disabled {
+    border-radius: 5px;
+    background-color: #009fda;
 }
 
 /***************************coursetag_montenegro_espanol********************************/
@@ -2608,6 +2615,11 @@ body:not(.isTablet).coursetag_montenegro_espanol #indice .units ul li.active:not
     color: #e0253c !important;
 }
 
+.coursetag_montenegro_espanol .btn-primary.disabled {
+    border-radius: 5px;
+    background-color: #e0253c;
+}
+
 /***************************coursetag_montenegro_geografia*******************************/
 .coursetag_montenegro_geografia #indice .units ul li {
 	background: #a13985;
@@ -2616,4 +2628,9 @@ body:not(.isTablet).coursetag_montenegro_espanol #indice .units ul li.active:not
 body:not(.isTablet).coursetag_montenegro_geografia #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet).coursetag_montenegro_geografia #indice .units ul li.active:not(.disabled) a .title {
     color: #a13985 !important;
+}
+
+.coursetag_montenegro_geografia .btn-primary.disabled {
+    border-radius: 5px;
+    background-color: #a1398;
 }
