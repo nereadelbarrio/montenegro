@@ -1004,7 +1004,6 @@ background: url(images/icono_portafolio.PNG);
 
 
 /*LISTA ORDENADA 1*/
-
 .content .bck-ol1 li,
 .cke_contents .bck-ol1 li {
 	font-weight: bold;
@@ -1213,20 +1212,15 @@ background: url(images/icono_portafolio.PNG);
 }
 
 
-/*LISTA DESORDENADA 1*/
-
-
+/*LISTA DESORDENADA 1 azul*/
 .texto_curso .bck-ul1 li,
 .workspace .bck-ul1 li ul li,
 .cke_contents .bck-ul1 li {
 	font-weight: normal;
-	color: #E94859;
 	margin-left: -15px;
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
-
 }
 
 .texto_curso .bck-ul1 li:before,
@@ -1234,25 +1228,21 @@ background: url(images/icono_portafolio.PNG);
 .cke_contents .bck-ul1 li:before {
     width: 6px;
     height: 6px;
-    background-color: #E94859;
+    background-color: #00AAE6;
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
 
 
 
-/*LISTA DESORDENADA 2*/
-
+/*LISTA DESORDENADA 2 roja*/
 .texto_curso .bck-ul2 li,
 .workspace .bck-ul2 li ul li,
 .cke_contents .bck-ul2 li {
-    font-weight: normal;
-	color: #E94859;
+	font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
 
 .texto_curso .bck-ul2 li:before,
@@ -1260,39 +1250,32 @@ background: url(images/icono_portafolio.PNG);
 .cke_contents .bck-ul2 li:before {
     width: 6px;
     height: 6px;
-    background-color: #fff;
-    border: 1px solid #E94859;
+    background-color: rgb(238,23,70);
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
 
-/*LISTA DESORDENADA 3*/
+/*LISTA DESORDENADA 3 verde*/
 
 .texto_curso .bck-ul3 li,
 .workspace .bck-ul3 li ul li,
 .cke_contents .bck-ul3 li {
-    font-weight: normal;
+	font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
+	font-size: 1.6rem;
 	margin-bottom: 10px;
 }
 
 .texto_curso .bck-ul3 li:before,
 .workspace .bck-ul3 li ul li:before,
 .cke_contents .bck-ul3 li:before {
-    content: "›";
-    position: absolute;
-    color: #76B82A;
-    width: 0;
-    height: 0;
-    background-color: transparent;
+    width: 6px;
+    height: 6px;
+    background-color: #75AF31;
     margin-left: -20px;
-    margin-top: -2px;
 }
 
-/*LISTA DESORDENADA 4*/
-
-
+/*LISTA DESORDENADA 4 naranja*/
 .texto_curso .bck-ul4 li,
 .workspace .bck-ul4 li ul li,
 .cke_contents .bck-ul4 li {
@@ -1301,7 +1284,6 @@ background: url(images/icono_portafolio.PNG);
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 
 }
 
@@ -1310,24 +1292,22 @@ background: url(images/icono_portafolio.PNG);
 .cke_contents .bck-ul4 li:before {
     width: 6px;
     height: 6px;
-    background-color: #3B6CAA;
+    background-color: #F7941D;
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
 
 
 
-/*LISTA DESORDENADA 5*/
+/*LISTA DESORDENADA 5 morada #AB3D98*/
 
 .texto_curso .bck-ul5 li,
 .workspace .bck-ul5 li ul li,
 .cke_contents .bck-ul5 li {
-    font-weight: normal;
+	font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
 
 .texto_curso .bck-ul5 li:before,
@@ -1335,10 +1315,8 @@ background: url(images/icono_portafolio.PNG);
 .cke_contents .bck-ul5 li:before {
     width: 6px;
     height: 6px;
-    background-color: #fff;
-    border: 1px solid #3B6CAA;
+    background-color: #AB3D98;
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
 
 
@@ -2401,82 +2379,6 @@ hr {
 }
 
 /*Ã‰nfasis*/
-.bck-enfasis-1 {
-	color: #76B82A;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
-}
-
-.bck-enfasis-2 {
-	color: #009FE3;
-    font-family: 'Conv_OpenDyslexic-Regular';
-}
-
-.bck-enfasis-3 {
-	border-bottom: 3px solid;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
-}
-
-.bck-enfasis-4 {
-	background-color: #FFDB00;
-	color: #3B6C97;
-	padding: 0px 5px 0px 5px;
-    width: fit-content;
-    -webkit-width: fit-content;
-    -moz-width: fit-content;
-    -ms-width: fit-content;
-    -o-width: fit-content;
-    border: 4px solid #FFDB00;
-    border-radius: 155px 55px 125px 55px/55px 125px 55px 155px;
-}
-
-.bck-enfasis-5 {
-	color: #3B6CAA;
-    font-family: 'Conv_OpenDyslexic-Regular';
-}
-
-.bck-enfasis-6 {
-	color: #D70D3F;
-}
-
-.bck-enfasis-7 {
-	color: #7C3B96;
-}
-
-.bck-enfasis-8 {
-	color: #76B82A;
-}
-
-.bck-enfasis-9 {
-	color: #fff;
-	background: #009FE3;
-	padding: 1px 10px 1px 5px;
-}
-
-.bck-enfasis-9:after {
-	content: "";
-	background-image: url(images/after_enfasis9_clicclac.png);
-	position: absolute;
-	background-repeat: no-repeat;
-	background-size: contain;
-	padding: 20px;
-	margin-top: -7px;
-    margin-left: 10px;
-}
-
-.bck-enfasis-10 {
-	font-size: 1.5rem;
-}
-
-
-.bck-enfasis-11 {
-	color: #00843E;
-}
-
-.bck-enfasis-12 {
-	color: #F39200;
-}
-
-
 
 
 
@@ -2504,98 +2406,7 @@ hr {
 	margin-top: 0px;
 }
 
-.item-container .icon-bocadillo:before {
-	background-image: url(images/icono_bocadillo_clicclac.png);
-	width: 40px;
-    height: 30px;
-}
 
-.item-container .icon-brujula:before {
-	background-image: url(images/icono_brujula_clicclac.png);
-	width: 40px;
-    height: 30px;
-}
-
-.item-container .icon-fiche:before {
-	background-image: url(images/icono_fiche_clicclac.png);
-	width: 55px;
-    height: 55px;
-}
-
-.item-container .icon-lapiz:before {
-	background-image: url(images/icono_lapiz_clicclac.png);
-	width: 23px;
-    height: 45px;
-}
-
-.item-container .icon-libro:before {
-	background-image: url(images/icono_libro_clicclac.png);
-	width: 40px;
-    height: 35px;
-}
-
-.item-container .icon-lupa:before {
-	background-image: url(images/icono_lupa_clicclac.png);
-	width: 40px;
-    height: 40px;
-}
-
-.item-container .icon-mano:before {
-	background-image: url(images/icono_mano_clicclac.png);
-	width: 42px;
-    height: 35px;
-    margin-top: -10px;
-}
-
-.item-container .icon-notas:before {
-	background-image: url(images/icono_notas_clicclac.png);
-	width: 40px;
-    height: 30px;
-    margin-top: -5px;
-}
-
-.item-container .icon-pegamento:before {
-	background-image: url(images/icono_pegamento_clicclac.png);
-	width: 30px;
-    height: 40px;
-}
-
-.item-container .icon-pintar:before {
-	background-image: url(images/icono_pintar_clicclac.png);
-	width: 65px;
-    height: 55px;
-}
-
-
-.item-container .icon-joue-verde:before {
-	background-image: url(images/icono_joue_verde_clicclac.png);
-	width: 90px;
-    height: 65px;
-}
-
-.item-container .icon-delf-1:before {
-	background-image: url(images/icono_delf_1_clicclac.png);
-	width: 65px;
-    height: 55px;
-}
-
-.item-container .icon-delf-2:before {
-	background-image: url(images/icono_delf_2_clicclac.png);
-	width: 60px;
-    height: 55px;
-}
-
-.item-container .icon-delf-3:before {
-	background-image: url(images/icono_delf_3_clicclac.png);
-	width: 60px;
-    height: 50px;
-}
-
-.item-container .icon-delf-4:before {
-	background-image: url(images/icono_delf_4_clicclac.png);
-	width: 65px;
-    height: 53px;
-}
 
 /* Forms */
 
