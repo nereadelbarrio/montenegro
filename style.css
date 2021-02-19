@@ -2598,13 +2598,13 @@ body:not(.isTablet).coursetag_montenegro_matematicas #indice .units ul li.active
     color: #0081c4 !important;
 }
 
-/***************************coursetag_montenegro_español********************************/
-.coursetag_montenegro_español #indice .units ul li {
+/***************************coursetag_montenegro_espanol********************************/
+.coursetag_montenegro_espanol #indice .units ul li {
 	background: #e0253c;
 }
 
-body:not(.isTablet).coursetag_montenegro_español #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet).coursetag_montenegro_español #indice .units ul li.active:not(.disabled) a .title {
+body:not(.isTablet).coursetag_montenegro_espanol #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_montenegro_espanol #indice .units ul li.active:not(.disabled) a .title {
     color: #e0253c !important;
 }
 
