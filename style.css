@@ -2605,6 +2605,13 @@ body:not(.isTablet).coursetag_montenegro_matematicas #indice .units ul li.active
     background-color: #009fda;
 }
 
+.coursetag_montenegro_matematicas a:hover, 
+.coursetag_montenegro_matematicas a:active, a:focus {
+    outline: 0;
+    color: #009fda;
+    text-decoration: none;
+}
+
 /***************************coursetag_montenegro_espanol********************************/
 .coursetag_montenegro_espanol #indice .units ul li {
 	background: #e0253c;
@@ -2620,6 +2627,13 @@ body:not(.isTablet).coursetag_montenegro_espanol #indice .units ul li.active:not
     background-color: #e0253c;
 }
 
+.coursetag_montenegro_espanol a:hover, 
+.coursetag_montenegro_espanol a:active, a:focus {
+    outline: 0;
+    color: #e0253c;
+    text-decoration: none;
+}
+
 /***************************coursetag_montenegro_geografia*******************************/
 .coursetag_montenegro_geografia #indice .units ul li {
 	background: #a13985;
@@ -2633,4 +2647,11 @@ body:not(.isTablet).coursetag_montenegro_geografia #indice .units ul li.active:n
 .coursetag_montenegro_geografia .btn-primary.disabled {
     border-radius: 5px;
     background-color: #a1398;
+}
+
+.coursetag_montenegro_geografia a:hover, 
+.coursetag_montenegro_geografia a:active, a:focus {
+    outline: 0;
+    color: #a13985;
+    text-decoration: none;
 }
