@@ -556,10 +556,10 @@ Padre Poptropica*/
 /*TOC*/
 
 #indice .units ul li {
-    background: #FFCF01;
+	background: #009fda;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
-    border-radius: 0px;
+    border-radius: 0px 10px 10px 10px;
     margin-bottom: 8px;
     padding: 0px;
 }
@@ -567,13 +567,13 @@ Padre Poptropica*/
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-    background: transparent;
-    border: 2.5px dotted #00AC81;
+    background: #ffffff !important;
+    border: none;
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-    color: #00AC81;
+    color: #009fda !important;
     font-size: 1.8rem;
 }
 
@@ -594,14 +594,14 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover,
 
 .btn-primary.disabled {
 	border-radius: 0px;
-	background-color: #ffcf01;
+	background-color: #009fda;
 
 }
 
 
 a:hover, a:active, a:focus {
     outline: 0;
-    color: #3B6CAA;
+    color: #009fda;
     text-decoration: none;
 }
 
