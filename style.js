@@ -24,6 +24,7 @@
 				{ name: 'Título 10', element: 'h4', attributes: { 'class': 'bck-title bck-title10'} },
 				{ name: 'Título 11', element: 'h4', attributes: { 'class': 'bck-title bck-title11'} },
 				{ name: 'Título 12', element: 'h4', attributes: { 'class': 'bck-title bck-title12'} },
+				{ name: 'Título 13', element: 'h4', attributes: { 'class': 'bck-title bck-title13'} },
 
 				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-1'} },
 				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-2'} },
@@ -98,7 +99,6 @@
 				{ name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box4' } },
 				{ name: 'Caja 5', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box5' } },
 				{ name: 'Caja 6', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box6' } },
-				{ name: 'Caja 7', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box7' } },
 				{ name: 'Caja 8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box8' } },
 				{ name: 'Caja 9', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box9' } },
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box10' } },
