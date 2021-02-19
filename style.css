@@ -1280,51 +1280,39 @@ a:hover, a:active, a:focus {
 
 /*Caja 1*/
 .bck-box.bck-box1 {
-	width: auto;
-    padding: 5px;
-    margin: 0;
+    border: 0;
 }
 
-.bck-box1 .bck-title {
-	background-color: #0081c3;
+.bck-box.bck-box1 > .bck-title {
+    background: #0081c3;
     color: #fff;
-    border-radius: 3px;
-    padding: 4px 6px 4px 10px;
-    border-bottom-color: #fff;
-    text-align: center;
     font-weight: 600;
-    margin-bottom: 3px;
+    display: inline-block;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 10px;
+    position: relative;
+    z-index: 2;
+    font-family: 'Conv_BommerSlab-Bold';
 }
 
-.bck-box1 .bck-title:after {
-	content: "";
+.bck-box.bck-box1 > .bck-title:after {
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #0081c3;
-    right: -10px;
-    bottom: 0px;
-    -moz-transform: skewX(22deg);
-    -webkit-transform: skewX(22deg);
-    -o-transform: skewX(22deg);
-    transform: skewX(-30deg);
-    transform: );
-    z-index: -5;
-    -moz-border-top-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
+    background: #0081c3;
+    top: 0px;
+    left: 58px;
+    z-index: -1;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
 }
-
-.bck-box1 .bck-content{
-	background-color: #00aab5;
-    color: #fff;
-    padding: 5px;
-    border-radius: 0 0 3px 3px;
-}
-
 
 /* Caja 2*/
 .bck-box.bck-box2 {
