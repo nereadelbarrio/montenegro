@@ -1026,108 +1026,78 @@ background: url(images/icono_portafolio.PNG);
     text-align: left;
     margin-top: -2px;
     margin-left: -30px;
+    width: 34px;
 }
 
 /*LISTA ORDENADA 2 num roja*/
 
 .content .bck-ol2 li,
 .cke_contents .bck-ol2 li {
-	font-weight: normal;
-    color: #3B6CAA;
-    padding-left: 0;
-    font-size: 2.1rem;
-    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
-    border-bottom: 2px dashed #76B82A;
-    margin-left: 40px;
-
+	padding-left: 0;
 }
+
 
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
-    content: counter(bck-li-counter);
-    color: #fff;
-    background: #76B82A;
-    padding: 0px 2px 2px 2px;
-    border-radius: 100%;
+	content: counter(bck-li-counter) ".";
+    color: rgb(238,23,70);
     position: absolute;
-    margin-top: 2px;
-    margin-left: -40px;
-    width: 33px;
-    text-align: center;
-    height: auto;
-    font-size: 2.5rem;
-    text-shadow: none;
-    transform: none;
-    font-family: 'Conv_Chaloops-Medium';
-    box-shadow: inherit;
-    border: none;
+    margin-left: -23px;
+    font-size: 2rem;
     line-height: inherit;
+    margin-top: 0px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -2px;
+    margin-left: -30px;
+    width: 34px;
 }
 
 /*LISTA ORDENADA 3 num morada*/
-
 .content .bck-ol3 li,
 .cke_contents .bck-ol3 li {
-	font-weight: normal;
-	color: #3B6CAA;
-	margin-left: -10px;
-	padding-left: 80px;
-	font-size: 2.3rem;
-	font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+	padding-left: 0;
 }
+
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
-    content: counter(bck-li-counter, upper-alpha) ".";
+	content: counter(bck-li-counter) ".";
+    color: #AB3D98;
     position: absolute;
-    margin-top: 4px;
-    margin-left: 45px;
-    display: inline-block;
-    width: 40px;
-    height: 0px;
-    border: 0px;
-    background: transparent;
-    color: #76B82A;
-    font-size: 2.3rem;
+    margin-left: -23px;
+    font-size: 2rem;
+    line-height: inherit;
+    margin-top: 0px;
     font-weight: bold;
-    text-align: center;
-    text-shadow: none;
-    transform: none;
-    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    text-align: left;
+    margin-top: -2px;
+    margin-left: -30px;
+    width: 34px;
 }
 
 /*LISTA ORDENADA 4 num verde*/
-
 .content .bck-ol4 li,
 .cke_contents .bck-ol4 li {
-	font-weight: normal;
-	color: #3B6CAA;
-	margin-left: -10px;
-	padding-left: 80px;
-	font-size: 2.3rem;
-	font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+	padding-left: 0;
 }
 
 
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
-    content: counter(bck-li-counter) ".";
+	content: counter(bck-li-counter) ".";
+    color: #75AF31;
     position: absolute;
-    margin-top: 4px;
-    margin-left: 45px;
-    display: inline-block;
-    width: 40px;
-    height: 0px;
-    border: 0px;
-    background: transparent;
-    color: #76B82A;
-    font-size: 2.3rem;
+    margin-left: -23px;
+    font-size: 2rem;
+    line-height: inherit;
+    margin-top: 0px;
     font-weight: bold;
-    text-align: center;
-    text-shadow: none;
-    transform: none;
-    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
-   }
+    text-align: left;
+    margin-top: -2px;
+    margin-left: -30px;
+    width: 34px;
+}
 
 /*LISTA ORDENADA 5*/
 
