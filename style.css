@@ -1320,7 +1320,7 @@ background: url(images/icono_portafolio.PNG);
 }
 
 
-/*LISTA DESORDENADA 6*/
+/*LISTA DESORDENADA 6 cuadrado*/
 
 .texto_curso .bck-ul6 li,
 .workspace .bck-ul6 li ul li,
@@ -1335,17 +1335,19 @@ background: url(images/icono_portafolio.PNG);
 .texto_curso .bck-ul6 li:before,
 .workspace .bck-ul6 li ul li:before,
 .cke_contents .bck-ul6 li:before {
-    width: 6px;
-    height: 6px;
-    background-color: #3B6CAA;
-    margin-left: -20px;
+	background-color: transparent;
+    margin-left: -24px;
+    content: '□';
+    color: #00AAE6;
+    position: relative;
+    padding-right: 10px;
 }
 
-/*LISTA DESORDENADA 7*/
+/*LISTA DESORDENADA 7 estrella*/
 .texto_curso .bck-ul7 li,
 .workspace .bck-ul7 li ul li,
 .cke_contents .bck-ul7 li {
-    font-weight: normal;
+	font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
 	font-size: 1.6rem;
@@ -1355,11 +1357,19 @@ background: url(images/icono_portafolio.PNG);
 .texto_curso .bck-ul7 li:before,
 .workspace .bck-ul7 li ul li:before,
 .cke_contents .bck-ul7 li:before {
-    width: 6px;
-    height: 6px;
-    background-color: #fff;
-    border: 1px solid #3B6CAA;
-    margin-left: -20px;
+	height: 12px;
+    text-align: center;
+    width: 16px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 7px;
+    background: url(images/listades7.PNG);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: -3px;
 }
 
 
