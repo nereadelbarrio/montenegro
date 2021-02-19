@@ -91,6 +91,7 @@ Padre Poptropica*/
 /*fuente general*/
 body{
 	font-family: 'Conv_AlrightSans-Regular';
+	font-family: 'Conv_ITCFranklinGothicStd-Demi';
 }
 
 /*Botonera*/
@@ -103,6 +104,7 @@ body{
     border-color: transparent;
     opacity: 1;
     border-radius: 5px;
+    font-family: 'Conv_AlrightSans-Regular';
 }
 
 .btn-primary[disabled] {
@@ -140,6 +142,7 @@ body{
     border-color: transparent;
     border-radius: 5px;
     font-size: 1.6rem;
+    font-family: 'Conv_AlrightSans-Regular';
 }
 
 .btn-solution:hover {
@@ -215,6 +218,7 @@ body{
     	display: block;
     	padding: 5px 15px 5px 95px;
     	font-size: 2.5rem;
+    	font-family: 'Conv_AlrightSans-Regular';
 	}
 
 	.content_type_clase_montenegro #actividad .content .header .title h3 span {
@@ -228,6 +232,7 @@ body{
 	.content_type_clase_montenegro #actividad .texto_curso,
 	.html-book {
 		font-size: 1.8rem;
+		font-family: 'Conv_AlrightSans-Regular';
 	}
 
 	.texto_curso p:last-of-type {
@@ -495,6 +500,7 @@ body{
     border-radius: 0px 10px 10px 10px;
     margin-bottom: 8px;
     padding: 0px;
+
 }
 
 #indice .units ul li.active:not(.disabled),
@@ -510,6 +516,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     color: #009fda !important;
     font-size: 1.8rem;
+    font-family: 'Conv_AlrightSans-Regular';
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover,
@@ -524,6 +531,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover,
     margin: -21px 0 0 35px;
     line-height: 18px;
     display: block;
+    font-family: 'Conv_AlrightSans-Regular';
 }
 
 
@@ -538,6 +546,7 @@ a:hover, a:active, a:focus {
     outline: 0;
     color: #009fda;
     text-decoration: none;
+    font-family: 'Conv_AlrightSans-Regular';
 }
 
 #indice .units ul li a:not(.delete) {
@@ -563,6 +572,7 @@ a:hover, a:active, a:focus {
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     display: none;
+    font-family: 'Conv_AlrightSans-Regular';
 }
 
 #indice .units ul li.disabled, 
@@ -578,6 +588,7 @@ a:hover, a:active, a:focus {
     border-radius: 5px;
     font-size: 1.6rem;
     padding: 5px 10px;
+    font-family: 'Conv_AlrightSans-Regular';
 }
 
 /**/
@@ -599,22 +610,7 @@ a:hover, a:active, a:focus {
     display: none;
 }
 
-/*SECCIONES*/
 
-/*slide_sin_titulo*/
-
-.content_type_clase_montenegro #actividad .content .slide_sin_titulo .header .title {
-   display: none;
-}
-
-#actividad .carousel-inner .slide_sin_titulo .item-container {
-    background-image: none;
-    margin: 20px auto 30px;
-    padding: 0px;
-    padding-bottom: 90px;
-    position: relative;
-    z-index: 0;
-}
 
 /* modo correcion/revision */
 .info-alumno .nombre-alumno {
@@ -638,6 +634,7 @@ a:hover, a:active, a:focus {
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 0px 0px 0px 0px;
     position: relative;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 .bck-title1:after {
@@ -675,6 +672,7 @@ a:hover, a:active, a:focus {
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 0px 0px 0px 0px;
     position: relative;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 .bck-title2:after {
@@ -706,6 +704,7 @@ a:hover, a:active, a:focus {
 	font-size: 2.5rem;
     color: #ec7e16;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 4*/
@@ -714,6 +713,7 @@ a:hover, a:active, a:focus {
 	font-size: 2.5rem;
     color: #f6aa0d;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 5*/
@@ -722,6 +722,7 @@ a:hover, a:active, a:focus {
 	font-size: 2.5rem;
     color: #7ab732;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 6*/
@@ -730,6 +731,7 @@ a:hover, a:active, a:focus {
 	font-size: 2.5rem;
     color: #6e3c87;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 7*/
@@ -737,6 +739,7 @@ a:hover, a:active, a:focus {
     font-size: 1.8rem;
     color: #F68B1F;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 8*/
@@ -744,6 +747,7 @@ a:hover, a:active, a:focus {
     font-size: 1.8rem;
     color: #20B14A;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 9*/
@@ -751,6 +755,7 @@ a:hover, a:active, a:focus {
     font-size: 1.8rem;
     color: #27A6DF;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 10*/
@@ -758,6 +763,7 @@ a:hover, a:active, a:focus {
     font-size: 2rem;
     color: #8EC964;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 11*/
@@ -765,6 +771,7 @@ a:hover, a:active, a:focus {
     font-size: 2rem;
     color: #71BF44;
     font-weight: 600;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 /*TITULO 12*/
@@ -780,6 +787,7 @@ a:hover, a:active, a:focus {
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 0px 0px 0px 0px;
     position: relative;
+    font-family: 'Conv_AlrightSans-Bold';
 }
 
 .bck-title12:after {
@@ -1333,6 +1341,7 @@ a:hover, a:active, a:focus {
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box1 {
@@ -1387,6 +1396,7 @@ a:hover, a:active, a:focus {
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box2 {
@@ -1441,6 +1451,7 @@ a:hover, a:active, a:focus {
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box3 {
@@ -1496,6 +1507,7 @@ a:hover, a:active, a:focus {
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box4 {
@@ -1550,6 +1562,7 @@ a:hover, a:active, a:focus {
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box5 {
@@ -1606,6 +1619,7 @@ a:hover, a:active, a:focus {
     border-radius: 0;
     border-top: 3px dotted #ee1c25;
     border-bottom: 5px solid #ee1c25;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box6 > .bck-bck-content p{
@@ -1661,6 +1675,7 @@ background: #EE1C25;
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box8 {
@@ -1715,6 +1730,7 @@ background: #EE1C25;
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box9 {
@@ -1769,6 +1785,7 @@ background: #EE1C25;
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box10 {
@@ -1823,6 +1840,7 @@ background: #EE1C25;
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box11 {
@@ -1876,6 +1894,7 @@ background: #EE1C25;
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
+    font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
 
 .bck-box.bck-box12 {
