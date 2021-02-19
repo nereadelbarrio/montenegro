@@ -2512,6 +2512,7 @@ body.content_type_clase_montenegro #actividad .content .fillblanks-draggable
 
 
  
+
 /*--------------CONTENIDO EXTRA---------------------*/
 
 #list-units .unittag_montenegro_contenidoextra {
@@ -2586,33 +2587,33 @@ body.content_type_clase_montenegro #actividad .content .fillblanks-draggable
     color: #0097a3 !important;
 }
 
-/***************************COURSETAG CLIC CLAC*******************************/
-/***************************CLIC CLAC1*******************************/
-.coursetag_montenegro1 #indice .units ul li {
+/***************************COURSETAG MONTENEGRO*******************************/
+/***************************coursetag_montenegro_matematicas*******************************/
+.coursetag_montenegro_matematicas #indice .units ul li {
 	background: #0081C4;
 }
 
-body:not(.isTablet).coursetag_montenegro1 #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet).coursetag_montenegro1 #indice .units ul li.active:not(.disabled) a .title {
+body:not(.isTablet).coursetag_montenegro_matematicas #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_montenegro_matematicas #indice .units ul li.active:not(.disabled) a .title {
     color: #0081c4 !important;
 }
 
-/***************************CLIC CLAC2*******************************/
-.coursetag_montenegro2 #indice .units ul li {
-	background: #BD0053;
+/***************************coursetag_montenegro_español********************************/
+.coursetag_montenegro_español #indice .units ul li {
+	background: #e0253c;
 }
 
-body:not(.isTablet).coursetag_montenegro2 #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet).coursetag_montenegro2 #indice .units ul li.active:not(.disabled) a .title {
-    color: #BD0053 !important;
+body:not(.isTablet).coursetag_montenegro_español #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_montenegro_español #indice .units ul li.active:not(.disabled) a .title {
+    color: #e0253c !important;
 }
 
-/***************************CLIC CLAC3*******************************/
-.coursetag_montenegro3 #indice .units ul li {
-	background: #669D67;
+/***************************coursetag_montenegro_geografia*******************************/
+.coursetag_montenegro_geografia #indice .units ul li {
+	background: #a13985;
 }
 
-body:not(.isTablet).coursetag_montenegro3 #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet).coursetag_montenegro3 #indice .units ul li.active:not(.disabled) a .title {
-    color: #669D67 !important;
+body:not(.isTablet).coursetag_montenegro_geografia #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_montenegro_geografia #indice .units ul li.active:not(.disabled) a .title {
+    color: #a13985 !important;
 }
