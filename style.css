@@ -826,6 +826,7 @@ a:hover, a:active, a:focus {
     border-radius: 0px 0px 0px 0px;
     position: relative;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .bck-title13:after {
@@ -879,6 +880,7 @@ background: url(images/icono_ponteaprueba.PNG);
     border-radius: 0px 0px 0px 0px;
     position: relative;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .bck-title14:after {
@@ -932,6 +934,7 @@ background: url(images/icono_ponteaprueba.PNG);
     border-radius: 0px 0px 0px 0px;
     position: relative;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .bck-title15:before{
@@ -1022,6 +1025,7 @@ background: url(images/icono_portafolio.PNG);
     font-weight: bold;
     text-align: left;
     margin-top: -2px;
+    margin-left: -30px;
 }
 
 /*LISTA ORDENADA 2 num roja*/
