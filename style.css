@@ -238,6 +238,9 @@ body{
 		padding: 0 97px;
 	}
 
+#actividad .carousel-inner .item-container{
+	background: #fff;
+}
 	/*actividades fill in the blank*/
 	.workspace.frame {
     	padding: 10px 4px;
