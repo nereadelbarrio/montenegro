@@ -979,32 +979,6 @@ background: url(images/icono_portafolio.PNG);
     line-height: 1.1rem;
 }
 
-.content ol li:before, 
-.cke_contents ol li:before,
-.content .bck-ol1 li:before, 
-.cke_contents .bck-ol1 li:before {
-    content: counter(bck-li-counter) ".";
-    position: absolute;
-    margin-top: 2px;
-    margin-left: 5px;
-    display: block;
-    width: 24px;
-    height: 24px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    background: transparent;
-    color: #333;
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-align: center;
-    line-height: 2.5rem;
-}
-
 
 /*LISTA ORDENADA 1 num azul*/
 .content .bck-ol1 li,
@@ -1099,40 +1073,27 @@ background: url(images/icono_portafolio.PNG);
     width: 34px;
 }
 
-/*LISTA ORDENADA 5*/
-
+/*LISTA ORDENADA 5 letras azul*/
 .content .bck-ol5 li,
 .cke_contents .bck-ol5 li {
-	font-weight: normal;
-    color: #3B6CAA;
-    padding-left: 0;
-    font-size: 2.1rem;
-    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
-    border-bottom: none;
-    margin-left: 40px;
-
+	padding-left: 0;
 }
 
 .content .bck-ol5 li:before,
 .cke_contents .bck-ol5 li:before {
-    content: counter(bck-li-counter);
-    color: #fff;
-    background: #009FE3;
-    padding: 0px 2px 2px 2px;
-    border-radius: 100%;
-    position: absolute;
-    margin-top: 2px;
-    margin-left: -40px;
-    width: 33px;
-    text-align: center;
-    height: auto;
-    font-size: 2.5rem;
-    text-shadow: none;
-    transform: none;
-    font-family: 'Conv_Chaloops-Medium';
-    box-shadow: inherit;
-    border: none;
-    line-height: inherit;
+    content: counter(bck-li-counter, lower-alpha)")";
+    position: relative;
+    color: #00AAE6;
+    background: none;
+    border: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: inline-block;
+    width: auto;
+    margin-right: 4px;
+    line-height: 1.55rem;
+    vertical-align: middle;
 }
 
 /*LISTA ORDENADA 6*/
