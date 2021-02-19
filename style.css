@@ -2511,36 +2511,7 @@ body.content_type_clase_montenegro #actividad .content .fillblanks-draggable
 }
 
 
- /************************ BK-21931 ****************************/
-
-#indice .units ul li a:not(.delete) {
-    display: block;
-    padding: 8px 5px;
-}
-
-.btn-primary.disabled {
-    background-color: #ffd000;
-}
-
-.btn-primary, .btn-primary.disabled {
-   border-radius: 5px;
-   background-color: #76B82A;
-}
-
-body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-    color: #00AC81 !important;
-    font-size: 1.8rem;
-}
-
-#indice .units ul li.active:not(.disabled),
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
-#indice .units ul li:focus:not(.disabled) {
-    background: #fff7d2 !important;
-    border: 2.5px dotted #dcb60f;
-}
-
-
+ 
 /*--------------CONTENIDO EXTRA---------------------*/
 
 #list-units .unittag_montenegro_contenidoextra {
