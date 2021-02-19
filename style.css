@@ -1091,9 +1091,10 @@ background: url(images/icono_portafolio.PNG);
     box-shadow: none;
     display: inline-block;
     width: auto;
-    margin-right: 4px;
+    margin-right: 10px;
     line-height: 1.55rem;
     vertical-align: middle;
+    font-size: 1.8rem;
 }
 
 /*LISTA ORDENADA 6*/
