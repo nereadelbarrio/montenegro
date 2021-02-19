@@ -593,6 +593,11 @@ a:hover, a:active, a:focus {
     display: none;
 }
 
+#indice .units ul li.disabled, 
+#indice .units ul li.locked{
+	background: #009fda;
+}
+
 /*botÃ³n corregir*/
 .btn-danger, .btn-danger[disabled] {
 	color: #fff;
