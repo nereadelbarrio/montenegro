@@ -1283,6 +1283,13 @@ a:hover, a:active, a:focus {
     border: 0;
 }
 
+.bck-box.bck-box1 > .bck-content{
+	background-color: #00aab5;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0 0 3px 3px;
+}
+
 .bck-box.bck-box1 > .bck-title {
     background: #0081c3;
     color: #fff;
