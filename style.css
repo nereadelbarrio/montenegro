@@ -1327,6 +1327,11 @@ a:hover, a:active, a:focus {
 	margin-bottom: 5px;
 }
 
+.bck-box.bck-box1 > .bck-bck-content p{
+	margin-bottom: 5px;
+}
+
+
 /* Caja 2*/
 .bck-box.bck-box2 > .bck-content{
 	background-color: #e13145;
@@ -1376,6 +1381,11 @@ a:hover, a:active, a:focus {
 	margin-bottom: 5px;
 }
 
+.bck-box.bck-box2 > .bck-bck-content p{
+	margin-bottom: 5px;
+}
+
+
 /* Caja 3 */
 .bck-box.bck-box3 > .bck-content{
 	background-color: #5eaf36;
@@ -1384,7 +1394,7 @@ a:hover, a:active, a:focus {
     border-radius: 0 0 3px 3px;
 }
 
-.bck-box.bck-bo32 {
+.bck-box.bck-box3 {
     border: 0;
 }
 
@@ -1425,139 +1435,229 @@ a:hover, a:active, a:focus {
 	margin-bottom: 5px;
 }
 
-
-
-/* Caja 4 */
-.bck-box.bck-box4 {
-    background-color: #FFFBED;
-    margin-bottom: 40px;
-    -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
-	box-shadow: 5px 5px 8px 5px #D7D7D7;
-    background-image: -webkit-linear-gradient(#d6d5d6 30%, transparent 20%), -webkit-linear-gradient(#d6d5d6 30%, transparent 20%);
-    background-image: -moz-linear-gradient(#d6d5d6 30%, transparent 20%), -moz-linear-gradient(#d6d5d6 30%, transparent 20%);
-    background-image: linear-gradient(#d6d5d6 30%, transparent 20%), linear-gradient(#cfcfc3 40%, transparent 43%);
-    background-position: 10px 5px, 10px 5px, 50% 0px;
-    background-repeat: repeat-y, repeat-y, repeat;
-    background-size: 9px 30px, 9px 30px, 30px 30px;
-    padding: 15px 10px 10px 45px;
+.bck-box.bck-box3 > .bck-bck-content p{
+	margin-bottom: 5px;
 }
 
 
-/* Caja 5 */
-.bck-box.bck-box5 {
-	margin: 10px;
-	margin-bottom: 30px;
-    background: #EAF6FE;
-    -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
-	box-shadow: 5px 5px 8px 5px #D7D7D7;
-    position: relative;
-	background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%),
-						  -webkit-radial-gradient(#cfcfc3 38%, transparent 24%),
-						  -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
-													   #c6c6c666 95%, #c6c6c666 100%),
-							-webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
-													   #c6c6c666 95%, #c6c6c666 100%);
-		background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%),
-						  -moz-radial-gradient(#cfcfc3 38%, transparent 24%),
-						  -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
-													   #c6c6c666 95%, #c6c6c666 100%),
-						  -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
-													   #c6c6c666 95%, #c6c6c666 100%);
-		background-image: radial-gradient(#d6d5d6 30%, transparent 20%),
-						  radial-gradient(#cfcfc3 38%, transparent 24%),
-						  linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
-													   #c6c6c666 95%, #c6c6c666 100%),
-						  linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
-													   #c6c6c666 95%, #c6c6c666 100%);
-		background-position: 4px 1px, 4px 0px, 50% 0px;
-		background-repeat: repeat-y, repeat-y, repeat,repeat;
-		background-size: 30px 30px, 30px 30px, 30px 30px;
-    padding: 10px 10px 10px 50px;
 
+/* Caja 4 */
+.bck-box.bck-box4 > .bck-content{
+	background-color: #b34e8f;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+}
+
+.bck-box.bck-box4 {
+    border: 0;
+}
+
+.bck-box.bck-box4 > .bck-title {
+    background: #6e3c87;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 15px;
+    position: relative;
+    z-index: 2;
+    font-family: 'Conv_BommerSlab-Bold';
+    border-bottom: 2px solid #fff;
+    width: 90%
+}
+
+.bck-box.bck-box4 > .bck-title:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 102%;
+    background: #6e3c87;
+    top: 0px;
+    left: 54px;
+    z-index: -1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+}
+
+.bck-box.bck-box4 > .bck-title p{
+	margin-bottom: 5px;
+}
+
+.bck-box.bck-box4 > .bck-bck-content p{
+	margin-bottom: 5px;
+}
+
+
+/* Caja 5 RECUERDA*/
+.bck-box.bck-box5 > .bck-content{
+	background-color: #AC9B70;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+}
+
+.bck-box.bck-box5 {
+    border: 0;
+}
+
+.bck-box.bck-box5 > .bck-title {
+    background: #F68B1F;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 15px;
+    position: relative;
+    z-index: 2;
+    font-family: 'Conv_BommerSlab-Bold';
+    border-bottom: 2px solid #fff;
+    width: 90%
+}
+
+.bck-box.bck-box5 > .bck-title:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 102%;
+    background: #F68B1F;
+    top: 0px;
+    left: 54px;
+    z-index: -1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+}
+
+.bck-box.bck-box5 > .bck-title p{
+	margin-bottom: 5px;
+}
+
+.bck-box.bck-box5 > .bck-bck-content p{
+	margin-bottom: 5px;
 }
 
 
 /* Caja 6 */
+.bck-box.bck-box6 > .bck-content{
+	background-color: #fff;
+    color: #ee1c25;
+    padding: 15px;
+    border-radius: 0;
+    border-top: 3px dotted #ee1c25;
+    border-bottom: 5px solid #ee1c25;
+}
+
+.bck-box.bck-box6 > .bck-bck-content p{
+	margin-bottom: 5px;
+}
+
 .bck-box.bck-box6 {
-	display: block;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    z-index: 1;
-    margin-bottom: 45px;
-    margin-top: 40px;
-    background-color: #90BED7;
-    border-radius: 20px;
-    width: 98%;
-    font-family: 'Conv_ChalkboardSE';
-    border: 1px solid #333;
+    border: 0;
 }
 
-.bck-box.bck-box6:before {
-	content: "";
-    background-image: url(images/fondo_caja8_anilla2_clicclac.png);
-    background-size: contain;
-    background-repeat-y: no-repeat;
-    background-repeat-x: repeat;
-    padding: 17px;
-    width: 96.3%;
-    margin-left: 5px;
-    position: absolute;
-    margin-top: -18px;
-}
-
-.bck-box6 .bck-content {
-	display: block;
-    padding-bottom: 10px;
-    background-color: #F9F7ED;
-    z-index: 1;
-    padding: 20px;
-    padding-top: 40px;
-    transform: rotate(-3deg);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    margin-top: 20px;
-    margin-left: -20px;
-    width: 105%;
-    color: #E94859;
+.bck-box.bck-box6 > .bck-title {
+background: #EE1C25;
+    background: #EE1C25;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 15px;
     position: relative;
-    font-size: 2.2rem;
-	background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%),
-				  -webkit-radial-gradient(#cfcfc3 38%, transparent 24%),
-				  -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
-				  -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-	background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%),
-				  -moz-radial-gradient(#cfcfc3 38%, transparent 24%),
-				  -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
-					  -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-	background-image: radial-gradient(#d6d5d6 30%, transparent 20%),
-				  radial-gradient(#cfcfc3 38%, transparent 24%),
-			  linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
-			  linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-	background-position: 4px 1px, 4px 0px, 50% 0px;
-	background-repeat: repeat-x, repeat-x, repeat,repeat;
-	background-size: 30px 30px, 30px 30px, 30px 30px;
-	box-shadow: 0px 3px 15px #676666cc;
-	border: 1px solid #333;
+    z-index: 2;
+    width: FIT-CONTENT;
+    top: 3px;
 }
 
+.bck-box.bck-box6 > .bck-title:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ee1c25;
+    top: 0px;
+    left: 54px;
+    z-index: -1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+}
+
+.bck-box.bck-box6 > .bck-title p{
+	margin-bottom: 5px;
+}
 
 /* Caja 7 */
+.bck-box.bck-box7 > .bck-content{
+	background-color: #fff;
+    color: #ee1c25;
+    padding: 15px;
+    border-radius: 0;
+    border-top: 3px dotted #ee1c25;
+    border-bottom: 5px solid #ee1c25;
+}
+
+.bck-box.bck-box7 > .bck-bck-content p{
+	margin-bottom: 5px;
+}
+
 .bck-box.bck-box7 {
-    background: #83D0F5;
-    border-radius: 20px;
-    padding: 20px 10px 20px 10px;
+    border: 0;
 }
 
-.bck-box7 .bck-content {
-	border-radius: 0;
-	color: #333;
-	background: #fff;
-	padding: 25px;
+.bck-box.bck-box7 > .bck-title {
+background: #EE1C25;
+    background: #EE1C25;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 15px;
+    position: relative;
+    z-index: 2;
+    width: FIT-CONTENT;
+    top: 3px;
 }
 
+.bck-box.bck-box7 > .bck-title:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ee1c25;
+    top: 0px;
+    left: 54px;
+    z-index: -1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+}
 
+.bck-box.bck-box7 > .bck-title p{
+	margin-bottom: 5px;
+}
 
 /*Caja 8*/
 .bck-box.bck-box8 {
