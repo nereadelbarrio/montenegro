@@ -825,6 +825,7 @@ a:hover, a:active, a:focus {
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 0px 0px 0px 0px;
     position: relative;
+    margin-top: 25px;
 }
 
 .bck-title13:after {
@@ -877,6 +878,7 @@ background: url(images/icono_ponteaprueba.PNG);
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 0px 0px 0px 0px;
     position: relative;
+    margin-top: 25px;
 }
 
 .bck-title14:after {
@@ -928,6 +930,7 @@ background: url(images/icono_actividades.PNG);
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 0px 0px 0px 0px;
     position: relative;
+    margin-top: 25px;
 }
 
 .bck-title15:before{
