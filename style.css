@@ -914,6 +914,35 @@ background: url(images/icono_actividades.PNG);
     width: 10px;
     margin-top: -6px;
 }
+
+/*TITULO 15*/
+.bck-title15 {
+	background-color: #F68B1F;
+    width: -webkit-fit-content;
+    width: -moz-f1-content;
+    width: fit-content;
+    color: #fff;
+    padding: 4px 10px;
+    font-weight: bold;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    position: relative;
+}
+
+.bck-title15:before{
+background: url(images/icono_actividades.PNG);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 32px 33px 0 24px;
+    position: relative;
+    left: -10px;
+    z-index: 100;
+    top: 16px;
+    width: 10px;
+    margin-top: -6px;
+}
 /* Listas */
 
 .texto_curso ul li,
