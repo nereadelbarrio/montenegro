@@ -89,6 +89,11 @@ Padre Poptropica*/
 
 /* General */
 
+/*fuente general*/
+body{
+     font-family: 'Conv_AlrightSans-Regular';
+}
+
 /*Botonera*/
 
 .btn-primary {
@@ -160,7 +165,7 @@ Padre Poptropica*/
 }
 
 	body.content_type_clase_montenegro {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font: 400 15px 'Source Sans Pro',sans-serif;
 		font-family: 'Conv_AlrightSans-Regular';
 		color: #3B6CAA;
