@@ -593,15 +593,15 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover,
 
 
 .btn-primary.disabled {
-	border-radius: 0px;
-	background-color: #009fda;
+	border-radius: 5px;
+    background-color: #0081c4;
 
 }
 
 
 a:hover, a:active, a:focus {
     outline: 0;
-    color: #009fda;
+    color: #0081c4;
     text-decoration: none;
 }
 
