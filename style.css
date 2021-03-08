@@ -570,6 +570,7 @@ a:hover, a:active, a:focus {
     text-overflow: ellipsis;
     display: none;
     font-family: 'Conv_AlrightSans-Regular';
+	text-shadow: 1px 2px 5px #0f0f0f;
 }
 
 #indice .units ul li.disabled, 
