@@ -168,7 +168,7 @@ body{
 	body.content_type_clase_montenegro {
 		font-size: 1.6rem;
 		font: 400 15px 'Source Sans Pro',sans-serif;
-		font-family: 'Conv_ITCFranklinGothicStd-Demi';
+		font-family: 'Conv_ITCFranklinGothicStd-Med';
 	}
 
 	body.content_type_clase_montenegro #actividad .content img {
@@ -572,7 +572,6 @@ a:hover, a:active, a:focus {
     font-family: 'Conv_AlrightSans-Regular';
     text-shadow: 1px 2px 5px #0f0f0f;
 }
-
 
 #indice .units ul li.disabled, 
 #indice .units ul li.locked{
@@ -2414,9 +2413,9 @@ textarea.form-control {
 #actividad .workspace.matching .opcion,
 #actividad .workspace.ordenar .js-rank-item,
 #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok) {
-    background: #fff;
-    color: #3B6CAA;
-    border: 2px solid #3B6CAA;
+	background: #fff;
+    color: #414141;
+    border: 1px solid #414141;
     border-radius: 20px;
 }
 
@@ -2491,12 +2490,12 @@ body.content_type_clase_montenegro #actividad .content .fillblanks-draggable
     padding: 2px 46px 6px 10px;
 }
 
+
 #actividad .workspace.multiple-choice .opcion p{
 	padding: 5px 5px 7px 7px;
     margin: 0;
     text-align: left;
 }
-
 
 @media screen and (min-width: 580px) {
 	.modal-dialog-center.audio-recording {
