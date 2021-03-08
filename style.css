@@ -2417,6 +2417,7 @@ textarea.form-control {
     color: #414141;
     border: 1px solid #414141;
     border-radius: 20px;
+	font-size: 1.6rem;
 }
 
 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
