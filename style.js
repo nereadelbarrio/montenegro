@@ -26,7 +26,6 @@
 				{ name: 'Título 12', element: 'h4', attributes: { 'class': 'bck-title bck-title12'} },
 				{ name: 'Título 13', element: 'h4', attributes: { 'class': 'bck-title bck-title13'} },
 				{ name: 'Título 14', element: 'h4', attributes: { 'class': 'bck-title bck-title14'} },
-				{ name: 'Título 15', element: 'h4', attributes: { 'class': 'bck-title bck-title15'} },
 
 				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-1'} },
 				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-2'} },
@@ -41,7 +40,6 @@
 				{ name: 'Énfasis 11', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-11'} },
 				{ name: 'Énfasis 12', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-12'} },
 
-
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
 				{ name: 'Lista ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
@@ -51,8 +49,7 @@
 				{ name: 'Lista ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol7' } },
 				{ name: 'Lista ordenada 8', element: 'ol', attributes: { 'class': 'bck-ol bck-ol8' } },
 				{ name: 'Lista ordenada 9', element: 'ol', attributes: { 'class': 'bck-ol bck-ol9' } },
-
-
+				
 				{ name: 'Lista desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul1' } },
 				{ name: 'Lista desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul2' } },
 				{ name: 'Lista desordenada 3', element: 'ul', attributes: { 'class': 'bck-ul bck-ul3' } },
@@ -60,43 +57,6 @@
 				{ name: 'Lista desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul bck-ul5' } },
 				{ name: 'Lista desordenada 6', element: 'ul', attributes: { 'class': 'bck-ul bck-ul6' } },
 				{ name: 'Lista desordenada 7', element: 'ul', attributes: { 'class': 'bck-ul bck-ul7' } },
-				{ name: 'Lista desordenada 8', element: 'ul', attributes: { 'class': 'bck-ul bck-ul8' } },
-
-
-				{ name: 'Tabla 1', element: 'table', attributes: { 'class': 'table-1' } },
-				{ name: 'Tabla 2', element: 'table', attributes: { 'class': 'table-2' } },
-				{ name: 'Tabla 3', element: 'table', attributes: { 'class': 'table-3' } },
-				{ name: 'Tabla 4', element: 'table', attributes: { 'class': 'table-4' } },
-
-				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td-1' } },
-				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2' } },
-				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3' } },
-				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'bck-td-4' } },
-				{ name: 'Celda 5', element: 'td', attributes: { 'class': 'bck-td-5' } },
-				{ name: 'Celda 6', element: 'td', attributes: { 'class': 'bck-td-6' } },
-				{ name: 'Celda 7', element: 'td', attributes: { 'class': 'bck-td-7' } },
-				{ name: 'Celda 8', element: 'td', attributes: { 'class': 'bck-td-8' } },
-
-			
-				{ name: 'Icono Bocadillo', element: 'span', attributes: { 'class': 'icon icon-bocadillo' } },
-				{ name: 'Icono Brújula', element: 'span', attributes: { 'class': 'icon icon-brujula' } },
-				{ name: 'Icono Fiche', element: 'span', attributes: { 'class': 'icon icon-fiche' } },
-				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
-				{ name: 'Icono Libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
-				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
-				{ name: 'Icono Mano', element: 'span', attributes: { 'class': 'icon icon-mano' } },
-				{ name: 'Icono Notas', element: 'span', attributes: { 'class': 'icon icon-notas' } },
-				{ name: 'Icono Pegamento', element: 'span', attributes: { 'class': 'icon icon-pegamento' } },
-				{ name: 'Icono Pintar', element: 'span', attributes: { 'class': 'icon icon-pintar' } },
-				{ name: 'Icono Joue Verde', element: 'span', attributes: { 'class': 'icon icon-joue-verde' } },
-				{ name: 'Icono DELF 1', element: 'span', attributes: { 'class': 'icon icon-delf-1' } },
-				{ name: 'Icono DELF 2', element: 'span', attributes: { 'class': 'icon icon-delf-2' } },
-				{ name: 'Icono DELF 3', element: 'span', attributes: { 'class': 'icon icon-delf-3' } },
-				{ name: 'Icono DELF 4', element: 'span', attributes: { 'class': 'icon icon-delf-4' } },
-
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown1' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown2' } },
-				
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
@@ -107,10 +67,8 @@
 				{ name: 'Caja 8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box8' } },
 				{ name: 'Caja 9', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box9' } },
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box10' } },
-				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box11' } },
-				{ name: 'Caja 12', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box12' } },
-				{ name: 'Caja 13', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box13' } },
-				{ name: 'Caja 14', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box14' } }
+				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box11' } }
+
 			]
 		},
 
