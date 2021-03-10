@@ -971,7 +971,7 @@ background: url(images/icono_portafolio.PNG);
     list-style-type: none;
     padding-left: 28px;
     margin-bottom: 16px;
-    margin-left: 5px;
+    margin-left: 12px;
     counter-increment: bck-li-counter;
     position: relative;
     line-height: 1.1rem;
@@ -998,7 +998,7 @@ background: url(images/icono_portafolio.PNG);
     font-weight: bold;
     text-align: left;
     margin-top: -2px;
-    margin-left: -30px;
+    margin-left: -36px;
     width: 34px;
     font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
@@ -1024,7 +1024,7 @@ background: url(images/icono_portafolio.PNG);
     font-weight: bold;
     text-align: left;
     margin-top: -2px;
-    margin-left: -30px;
+    margin-left: -36px;
     width: 34px;
     font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
@@ -1049,7 +1049,7 @@ background: url(images/icono_portafolio.PNG);
     font-weight: bold;
     text-align: left;
     margin-top: -2px;
-    margin-left: -30px;
+    margin-left: -36px;
     width: 34px;
     font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
@@ -1074,7 +1074,7 @@ background: url(images/icono_portafolio.PNG);
     font-weight: bold;
     text-align: left;
     margin-top: -2px;
-    margin-left: -30px;
+    margin-left: -36px;
     width: 34px;
     font-family: 'Conv_ITCFranklinGothicStd-Med';
 }
