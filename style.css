@@ -2786,3 +2786,47 @@ body:not(.isTablet).coursetag_montenegro_geografia #indice .units ul li.active:n
     color: #a13985;
     text-decoration: none;
 }
+
+/***************************coursetag_montenegro_biologia*******************************/
+.coursetag_montenegro_biologia #indice .units ul li {
+	background: #acca35;
+}
+
+body:not(.isTablet).coursetag_montenegro_biologia #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_montenegro_biologia #indice .units ul li.active:not(.disabled) a .title {
+    color: #acca35 !important;
+}
+
+.coursetag_montenegro_biologia .btn-primary.disabled {
+    border-radius: 5px;
+    background-color: #acca35;
+}
+
+.coursetag_montenegro_biologia a:hover, 
+.coursetag_montenegro_biologia a:active, a:focus {
+    outline: 0;
+    color: #acca35;2cb4b7
+    text-decoration: none;
+}
+
+/***************************coursetag_montenegro_formacioncivica*******************************/
+.coursetag_montenegro_formacioncivica #indice .units ul li {
+	background: #2cb4b7;
+}coursetag_montenegro_formacioncivica
+
+body:not(.isTablet).coursetag_montenegro_formacioncivica #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_montenegro_formacioncivica #indice .units ul li.active:not(.disabled) a .title {
+    color: #2cb4b7 !important;
+}
+
+.coursetag_montenegro_formacioncivica .btn-primary.disabled {
+    border-radius: 5px;
+    background-color: #2cb4b7;
+}
+
+.coursetag_montenegro_formacioncivica a:hover, 
+.coursetag_montenegro_formacioncivica a:active, a:focus {
+    outline: 0;
+    color: #2cb4b7;
+    text-decoration: none;
+}
