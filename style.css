@@ -2812,7 +2812,7 @@ body:not(.isTablet).coursetag_montenegro_biologia #indice .units ul li.active:no
 /***************************coursetag_montenegro_formacioncivica*******************************/
 .coursetag_montenegro_formacioncivica #indice .units ul li {
 	background: #2cb4b7;
-}coursetag_montenegro_formacioncivica
+}
 
 body:not(.isTablet).coursetag_montenegro_formacioncivica #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet).coursetag_montenegro_formacioncivica #indice .units ul li.active:not(.disabled) a .title {
