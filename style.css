@@ -380,6 +380,18 @@ body{
     width: auto;
 }
 
+.slider-indicators li {
+    width: 13px;
+    height: 13px;
+    margin: 7px;
+    border: 0 solid transparent;
+    background-color: #666;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
 	#bottom-navigator li:hover {
 		  background: #ffcf01;
     	  color: transparent;
